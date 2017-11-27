@@ -7,11 +7,11 @@ import logo from './logo.svg';
 class App extends Component {
   render() {
     return (
-        <div align="center">
-            <div>
+        <div className="container">
+            <div className="item">
                 <img src={logo} className="App-logo" alt="logo" />
             </div>
-            <div>
+            <div className="item">
                 <div className="inline-div">
                     <CheckedList/>
                 </div>

@@ -4,11 +4,8 @@
 
 .App-logo {
   animation: App-logo-spin infinite 10s linear;
-  height: 80px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: auto;
-  margin-top: auto;
+  height: 50px;
+  align-self: center;
 }
 
 .App-header {
