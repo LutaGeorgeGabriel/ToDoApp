@@ -7,8 +7,8 @@ import logo from './logo.svg';
 class App extends Component {
   render() {
     return (
-        <div>
-            <div className="full-length-div">
+        <div align="center">
+            <div>
                 <img src={logo} className="App-logo" alt="logo" />
             </div>
             <div>

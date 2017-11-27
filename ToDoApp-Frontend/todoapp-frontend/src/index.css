@@ -6,10 +6,9 @@ body {
 
 .inline-div {
     display: inline-block;
-    border: solid;
 }
 
 .full-length-div {
     border: solid;
-    position: absolute;
+    position: relative;
 }
