@@ -1,13 +1,17 @@
 import React from "react";
-import ToDoItem from "./ToDoItem";
 import "./App.css";
-import ToDoList from "./ToDoList";
 
 
 class CheckedList extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+
     render() {
         return (
-            <ToDoList/>
+            <div>
+                {this.props.todos}
+            </div>
         )
     }
 }

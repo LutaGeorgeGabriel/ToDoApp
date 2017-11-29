@@ -8,8 +8,31 @@ body {
     align-items: center; /*centers items on the cross-axis (y by default)*/
 }
 
+.todo_container {
+    -ms-box-orient: horizontal;
+    flex-wrap: wrap;
+    display: flex;
+}
+.todo_item {
+    padding: 5px;
+    width: auto;
+    height: auto;
+    line-height: 100px;
+    align-self: center;
+}
+
+.todo_item:hover {
+    border: 2px solid #000000;
+}
+
 .inline-div {
-    display: inline-block;
+    position: relative;
+    align-items: center;
+    align-self: center;
+}
+
+.inline-div:hover {
+    border: 2px solid #000000;
 }
 
 .container-div {
